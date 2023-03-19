@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace JsonDLL
+namespace project_portfolio_api.Services
 {
     public class JsonWrapper
     {
@@ -97,13 +97,13 @@ namespace JsonDLL
             switch (reader.TokenType)
             {
                 case JsonTokenType.String:
-                    return reader.GetString();
+                    return reader.GetString()!;
                 case JsonTokenType.False:
                     return false;
                 case JsonTokenType.True:
                     return true;
                 case JsonTokenType.Null:
-                    return null;
+                    return null!;
                 case JsonTokenType.Number:
                     if (reader.TryGetInt64(out var resultInt))
                     {
@@ -119,7 +119,7 @@ namespace JsonDLL
                     }
                     return reader.GetDecimal();
                 case JsonTokenType.StartObject:
-                    return Read(ref reader, null, options);
+                    return Read(ref reader, null!, options);
                 case JsonTokenType.StartArray:
                     var list = new List<object>();
                     while (reader.Read() && reader.TokenType != JsonTokenType.EndArray)
