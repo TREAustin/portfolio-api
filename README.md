@@ -7,3 +7,17 @@
 //This must be updated to this version.
 <PackageReference Include="Amazon.Lambda.AspNetCoreServer" Version="8.0.0" />
 ```
+### The next change I had to make was in the LambdaEntryPoint.cs file.  It will be setup by default with HttpAPI setting, this is easy to change though.
+### The LambdaEntryPoint needs to inherit from Amazon.Lambda.AspNetCoreServer.APIGatewayHttpApiV2ProxyFunction not Amazon.Lambda.AspNetCoreServer.APIGatewayProxyFunction.
+```
+//Default settings.
+public class LambdaEntryPoint : Amazon.Lambda.AspNetCoreServer.APIGatewayProxyFunction
+{
+    ... Methods here ...
+}
+//Needs to be changed to this.
+public class LambdaEntryPoint : Amazon.Lambda.AspNetCoreServer.APIGatewayHttpApiV2ProxyFunction
+{
+    ... Methods here ...
+}
+```
