@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "/oYVUPytTLeJM2Hxw3oBMve1cN49QBEdyMWOmdmdDs40eHYSyOQUg7Yh5OYEqROhyHL+ImdB3H3xZHLVpzdQog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\taust\\Desktop\\Portfolio Project\\project-portfolio-api\\src\\project-portfolio-api\\project-portfolio-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.6.0\\amazon.lambda.apigatewayevents.2.6.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\8.0.0\\amazon.lambda.aspnetcoreserver.8.0.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.aspnetcoreserver.hosting\\1.5.1\\amazon.lambda.aspnetcoreserver.hosting.1.5.1.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.runtimesupport\\1.8.4\\amazon.lambda.runtimesupport.1.8.4.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\awssdk.core\\3.7.106.1\\awssdk.core.3.7.106.1.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\awssdk.s3\\3.7.103.31\\awssdk.s3.3.7.103.31.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.logging\\2.1.0\\microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.0\\microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.options\\2.1.0\\microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\6.0.14\\microsoft.netcore.app.runtime.linux-x64.6.0.14.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\6.0.14\\microsoft.aspnetcore.app.runtime.linux-x64.6.0.14.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.14\\microsoft.netcore.app.crossgen2.win-x64.6.0.14.nupkg.sha512",
+    "C:\\Users\\taust\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.14\\microsoft.netcore.app.host.linux-x64.6.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

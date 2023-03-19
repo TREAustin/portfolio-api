@@ -1,0 +1,11 @@
+{
+  "profile": "",
+  "region": "",
+  "configuration": "Release",
+  "function-runtime": "dotnet6",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "project-portfolio-api",
+  "function-name": "project-portfolio-api",
+  "function-url-enable": false
+}
