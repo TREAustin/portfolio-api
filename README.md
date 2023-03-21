@@ -82,3 +82,7 @@ dotnet lambda deploy-function
 ```
 
 The lambda function is now ready to be setup using a Rest API Gateway and be tested.
+
+### Comments, Questions, or Suggestions? ###
+
+Please feel free to reach out to me at tausti0065@gmail.com.
